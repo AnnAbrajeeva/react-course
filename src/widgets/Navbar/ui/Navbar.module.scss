@@ -1,5 +1,5 @@
 .Navbar {
-    height: 50px;
+    height: var(--navbar-height);
     background-color: var(--inverted-bg-color);
     display: flex;
     align-items: center;
@@ -10,4 +10,5 @@
 .links {
     display: flex;
     gap: 20px;
+    margin-left: auto;
 }
