@@ -40,7 +40,7 @@ module.exports = {
         checksVoidReturn: false
       }
     ],
-    semi: "off",
-    "@typescript-eslint/semi": "off"
+    "@typescript-eslint/semi": "off",
+    semi: 0
   }
 };
