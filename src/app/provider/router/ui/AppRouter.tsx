@@ -1,6 +1,6 @@
-import React, { Suspense } from "react";
-import { Routes, Route } from "react-router-dom";
-import { RouteConfig } from "shared/config/routeConfig/routeConfig";
+import React, { Suspense } from "react"
+import { Routes, Route } from "react-router-dom"
+import { RouteConfig } from "shared/config/routeConfig/routeConfig"
 
 const AppRouter = () => {
   return (
@@ -13,11 +13,11 @@ const AppRouter = () => {
               path={path}
               element={<div className="page-wrapper"> {element} </div>}
             />
-          );
+          )
         })}
       </Routes>
     </Suspense>
-  );
-};
+  )
+}
 
-export default AppRouter;
+export default AppRouter
